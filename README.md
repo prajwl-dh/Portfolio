@@ -1,4 +1,4 @@
-Welcome to my digital portfolio!
+Welcome to my portfolio! I created this project while i was learning React
 https://delicate-twilight-f71dcb.netlify.app/ 
 
 ![Sample Output](https://github.com/prajwl-dh/Portfolio/blob/main/prajwal's%20portfolio%20screenshot.png)
