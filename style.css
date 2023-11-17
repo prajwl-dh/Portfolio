@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    font-family: Rubik;
+}
+
+body {
+    margin: 0;
+    background-color: #212323;
+}
+
+.container {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #191b20;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info > h3, .info > h4, .info > h5 {
+    margin: 0px;
+}
+
+.profile-picture {
+    width: 100%;
+    height: 35%;
+    border-radius: 5px;
+}
+
+.name {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 10px !important;
+}
+
+.job {
+    color: whitesmoke;
+    font-size: 13px;
+    margin-top: 10px !important;
+}
+
+.website {
+    color: wheat;
+    margin-top: 10px !important;
+    font-size: 12px;
+}
+
+.website:hover, .website:active {
+    color: rgb(160, 254, 184); 
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.social-buttons > a {
+    text-decoration: none;
+}
+
+.email-button {
+    width: 22vw;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #f9fafa;
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    transition: .5s;
+}
+
+.email-button:hover {
+    transform: translateY(-3px);
+    transition: .5s;
+    cursor:pointer;
+    box-shadow: 0px 0px 30px 0px #f9fafa;
+}
+
+.email-button:active, .email-button:focus {
+    outline: none;
+}
+
+.emailIcon {
+    height: 17px;
+    margin-right: 10px;
+}
+
+.linkedin-button {
+    width:22vw;
+    height: 35px;
+    margin-left: 2vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #81b1ff;
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+}
+
+.linkedin-button:hover {
+    transform: translateY(-3px);
+    transition: .5s;
+    cursor:pointer;
+    box-shadow: 0px 0px 30px 0px #81b1ff;
+}
+
+.linkedin-button:active, .linkedin-button:focus {
+    outline: none;
+}
+
+.linkedInIcon {
+    height: 17px;
+    margin-right: 10px;
+}
+
+.about {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.about-heading {
+    font-size: 14px;
+    margin:0;
+}
+
+.about-description {
+    font-size: 13px;
+    margin-top: 5px;
+    color: gainsboro;
+}
+
+.interests {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.interests-heading {
+    font-size: 14px;
+    margin:0;
+}
+
+.interests-description {
+    font-size: 13px;
+    margin-top: 5px;
+    color: gainsboro;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: rgb(55, 74, 74);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    margin-left: -10px;
+}
+
+.footer-list >li {
+    transition: .5s;
+    margin-right: 20px;
+}
+
+.footer-list > li:hover {
+    transform: translateY(-3px);
+    transition: .5s;
+    cursor:pointer;
+    box-shadow: 0px 0px 40px 20px rgb(55, 74, 74);
+}
+
+.footer-list >li > a > img {
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
